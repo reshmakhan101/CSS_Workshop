@@ -1,0 +1,1700 @@
+@import '../lib/variables';
+@import '../lib/common';
+@import '../lib/mixins';
+
+@media (max-width: 576px) {
+#toursSection {
+    height: 850px !important;
+     .container {
+         .row {
+             .col-12 {
+                 margin-top: 50px !important;
+                 .item {
+                     height: 200px !important;
+                 }
+             }
+             .col-12:nth-of-type(4) {
+                margin-top: 0px !important;
+                height: 100px !important;
+             }
+             .col-12 {
+                p {
+                }
+            }
+         }
+     }
+}
+ #offerSection {
+     height: 1000px !important;
+    .container {
+        .row {
+            .col-sm-12 {
+                .item {
+                    ul {
+                        display: block !important;
+                        li {
+                            a {
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+#servicesSection {
+    height: 1650px !important;
+    .container {
+        .row {
+            .col-sm-6 {
+                .item {
+                    .innerItem {
+                        .col-xs-10 {
+                            display: flex;
+                            justify-content: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+#toursPricingSection {
+    height: 1550px !important;
+    .container {
+        .row {
+            display: flex;
+            justify-content: center;
+            .col-11 {
+                padding-left: 0px !important;
+                border: none !important;
+                margin-bottom: 0px !important;
+                display: flex;
+                justify-content: start !important;
+                .item {
+                }
+            }
+        }
+    }
+}
+#teamSection {
+    height: 1250px !important;
+    h1 {
+        font-size: 30px;
+    }
+    .container {
+        .row {
+            .col-12 {
+                margin-top: 5% !important;
+                .item {}
+                .textItem {
+                    padding-top: 15% !important;
+                }
+            }
+        }
+    }
+}
+#bookingSection {
+    .container {
+        .row {
+            .col-12 {
+                h1 {
+                    font-size: 15px !important;
+                }
+                p {
+                    font-size: 10px !important;
+                }
+            }
+        }
+    }
+}
+#feedbackSection {
+    height: 1200px !important;
+    .container {
+        .row {
+            .col-sm-10 {
+                margin-top: 13%;
+                .item {
+                    .imgHolder {
+
+                    }
+                }
+            }
+        }
+    }
+}
+#staticsSection {
+    height: 1000px !important;
+    h1 {
+        font-size: 30px !important;
+    }
+    .container {
+        .row {
+            .col-8 {
+                margin-top: 5% !important;
+                .item {
+                    height: 250px !important;
+                    h1 {
+                        font-size: 50px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+#signUpSection {
+    .container {
+        .row {
+            .col-12 {
+                h1 {
+                    font-size: 25px !important;
+                }
+                p {
+                    font-size: 10px !important;
+                }
+            }
+        }
+    }
+}
+#blogPostSection {
+    height: 750px !important;
+    .container {
+        .row {
+            .col-12 {
+                .item {
+                    height: 250px !important;
+                    margin-bottom: 15% !important;
+                    .innerItem {
+                        height: 55% !important;
+                        h1 {
+                            font-size: 15px !important;
+                        }
+                        p {
+                            font-size: 15px !important;
+                        }
+                        .iconHolder {
+                            height: 20% !important;
+                            i {
+                                font-size: 20px !important;
+                                width: 25px !important;
+                                height: 25px !important;
+                                line-height: 25px !important;
+                                .iconOverlay {
+                                    width: 25px !important;
+                                    height: 25px !important;
+                                    background: black !important;
+                                    z-index: -1 !important;
+                                }
+                            }
+                        }
+                    }
+                }
+                img {}
+            }
+        }
+    }
+}
+#gallerySection {
+    height: 600px !important;
+    .container {
+        .row {
+            .col-4 {
+                .item {
+                    height: 120px !important;
+                }
+            }
+        }
+    }
+}
+footer {
+    padding-bottom: 20px !important;
+}
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+#toursSection {
+        height: 850px !important;
+        .container {
+            .row {
+                .col-sm-12 {
+                    margin-top: 50px !important;
+                    .item {
+                        height: 200px !important;
+                    }
+                }
+                .col-sm-12:nth-of-type(4) {
+                    margin-top: 0px !important;
+                    height: 100px !important;
+                }
+                .col-lg-12 {
+                    p {
+                    }
+                }
+            }
+        }
+}
+#offerSection {
+        height: 800px !important;
+        .container {
+            .row {
+                .col-md-12 {
+                    padding-left: 0 !important; 
+                    .item {
+                        width: 100% !important;
+                    }
+                }
+            }
+        }
+}
+#servicesSection {
+        height: 870px !important;
+        .container {
+            .row {
+                .col-sm-6 {
+                    .item {
+                        .innerItem {
+                            .col-sm-12 {
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}
+#toursPricingSection {
+        .container {
+            .row {
+                .col-sm-6 {
+                    .item {
+                        height: 220px !important;
+                        p {
+                            font-size: 12px !important;
+                        }
+                        button {
+                            height: 40px !important;
+                            .btnHover {
+                                height: 40px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}
+#teamSection {
+        height: 1250px !important;
+        .container {
+            .row {
+                .col-sm-12 {
+                    .item {}
+                    .textItem {
+                        padding-top: 15% !important;
+                    }
+                }
+            }
+        }
+}
+#bookingSection {
+    .container {
+        .row {
+            .col-12 {
+                h1 {
+                    font-size: 30px !important;
+                }
+                p {
+                    font-size: 12px !important;
+                }
+            }
+        }
+    }
+}
+#feedbackSection {
+    height: 1200px !important;
+    .container {
+        .row {
+            .col-sm-10 {
+                margin-top: 13%;
+                .item {
+                    .imgHolder {
+
+                    }
+                }
+            }
+        }
+    }
+}
+#staticsSection {
+    height: 1000px !important;
+    h1 {
+        font-size: 30px;
+    }
+    .container {
+        .row {
+            .col-sm-8 {
+                margin-top: 5% !important;
+                .item {
+                    height: 250px !important;
+                }
+            }
+        }
+    }
+}
+#signUpSection {
+    .container {
+        .row {
+            .col-12 {
+                h1 {
+                    font-size: 30px !important;
+                }
+                p {
+                    font-size: 13px !important;
+                }
+            }
+        }
+    }
+}
+#blogPostSection {
+    height: 750px !important;
+    .container {
+        .row {
+            .col-sm-12 {
+                .item {
+                    height: 250px !important;
+                    margin-bottom: 15% !important;
+                    .innerItem {
+                        height: 55% !important;
+                        h1 {
+                            font-size: 15px !important;
+                        }
+                        p {
+                            font-size: 15px !important;
+                        }
+                        .iconHolder {
+                            height: 20% !important;
+                            i {
+                                font-size: 20px !important;
+                                width: 25px !important;
+                                height: 25px !important;
+                                line-height: 25px !important;
+                                .iconOverlay {
+                                    width: 25px !important;
+                                    height: 25px !important;
+                                    background: black !important;
+                                    z-index: -1 !important;
+                                }
+                            }
+                        }
+                    }
+                }
+                img {}
+            }
+        }
+    }
+}
+#gallerySection {
+    height: auto !important;
+    .container {
+        .row {
+            .col-sm-4 {
+                .item {
+                    height: 150px !important;
+                }
+            }
+        }
+    }
+}
+footer {
+    .container {
+        .row {
+            .col-sm-6 {
+                .item {
+                    .contactList {
+                        li {
+                            a {
+                                font-size: 12px !important;
+                                margin-right: 30px !important;
+                            }
+                        }
+                    }
+                }
+            }
+            .col-sm-6 {
+                margin-top: 20px !important;
+                .item {
+                    ul {
+                        li {
+                            a {
+                                font-size: 13px !important;
+                            }
+                        }
+                    }
+                }
+            }
+            .col-sm-12 {
+                .item {
+                    ul {
+                        li {
+                            a {
+                                font-size: 13px !important; 
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}
+
+@media  (min-width: 768px) and (max-width: 992px) {
+#toursSection {
+        height: 400px !important;
+        .container {
+            .row {
+                .col-12 {
+                    margin-top: 50px !important;
+                    height: 200px !important;
+                    .item {
+                        height: 200px !important;
+                    }
+                }
+                .col-md-12 {
+                    margin-top: 0px !important;
+                    height: 120px !important;
+                }
+                .col-lg-12 {
+                    p {
+                    }
+                }
+            }
+        }
+}
+#offerSection {
+        height: 800px !important;
+        .container {
+            .row {
+                .col-md-12 {
+                    display: flex !important;
+                    justify-content: start !important;
+                    padding-left: 0 !important; 
+                    .item {
+                        .innerItem {
+                            .col-sm-12 {}
+                        }
+                    }
+                }
+            }
+        }
+}
+#servicesSection {
+        height: 850px !important;
+        .container {
+            .row {
+                .col-sm-6 {
+                    .item {
+                        .innerItem {
+                            padding-top: 0px;
+                            .col-sm-12 {
+                                height: 50px !important;
+                                margin-left: 0px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}
+#teamSection {
+        height: 650px !important;
+        .container {
+            .row {
+                .col-sm-12 {
+                    .item {}
+                    .textItem {}
+                }
+            }
+        }
+}
+#feedbackSection {
+    height: 800px !important;
+    .container {
+        .row {
+            .col-md-6:nth-of-type(3) {
+                margin-top: 13%;
+                .item {
+                    .imgHolder {
+
+                    }
+                }
+            }
+        }
+    }
+}
+#staticsSection {
+    height: 700px !important;
+    .container {
+        .row {
+            .col-md-6:nth-of-type(3) {
+                margin-top: 5% !important;
+            }
+        }
+    }
+}
+#blogPostSection {
+    height: 450px !important;
+    .container {
+        .row {
+            .col-md-6 {
+                .item {
+                    height: 250px !important;
+                    .innerItem {
+                        height: 50% !important;
+                        h1 {
+                            font-size: 15px !important;
+                        }
+                        p {
+                            font-size: 15px !important;
+                        }
+                        .iconHolder {
+                            height: 20% !important;
+                            i {
+                                font-size: 15px !important;
+                                width: 20px !important;
+                                height: 20px !important;
+                                line-height: 20px !important;
+                                .iconOverlay {
+                                    width: 20px !important;
+                                    height: 20px !important;
+                                    background: black !important;
+                                    z-index: -1 !important;
+                                }
+                            }
+                        }
+                    }
+                }
+                img {}
+            }
+        }
+    }
+}
+#gallerySection {
+    height: 400px;
+    .container {
+        .row {
+            .col-md-4 {
+                .item {
+                    height: 200px !important;
+                }
+            }
+        }
+    }
+}
+footer {
+    .container {
+        .row {
+            .col-md-12 {
+                .item {
+                    .contactList {
+                        li {
+                            a {
+                                font-size: 12px !important;
+                                margin-right: 30px !important;
+                            }
+                        }
+                    }
+                }
+            }
+            .col-md-6 {
+                margin-top: 20px !important;
+                .item {
+                    ul {
+                        li {
+                            a {
+                                font-size: 13px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}
+
+@media only screen and  (min-width: 992px) and (max-width: 1200px) {
+#toursSection {
+        .col-lg-12 {
+            p {
+            }
+        }
+}
+}
+
+//  Start of the header
+header {
+         
+            @media  (min-width: 540px) and (max-width: 768px) {
+                .container {
+                    max-width: 100% !important;
+                }
+            }
+            @media  (min-width: 768px) and (max-width: 992px) {
+                .container {
+                    max-width: 100% !important;
+                }
+            }
+            .row {
+                height: 80px;
+                box-sizing: border-box;
+                .col-lg-3 {
+                    i {
+                        font-size: 30px;
+                    }
+                }
+                .col-lg-9 {
+                    i {
+                        font-size: 20px;
+                        color: $mainColor;
+                    }
+                    span {
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 14px;
+                        font-weight: 400;
+                        transition: all .3s ease;
+                        cursor: pointer;
+                    }
+                    span:nth-of-type(2) {
+                        &:hover {
+                            color: #50ba87;
+                        }
+                    }
+                    button {
+                        @include mainBtn( border-box, 190px, 50px, none, none, pointer, 1px solid $mainColor );
+                        transition: all .3s ease;
+                        &:hover {
+                            .btnHover {
+                                transform: scaleX(1);
+                                background: #50ba87;
+                            }
+                            a {
+                                color: white;
+                            }
+                        }
+                        .btnHover {
+                            width: 190px;
+                            transform: scaleX(0.4);
+                            height: 50px;
+                            background: #50ba8700;
+                            top: -2px;
+                            left: -2px;
+                            transition: all .3s ease;
+                            z-index: -1;
+                        }
+                        a {
+                            text-decoration: none;
+                            color: black;
+                            font-family: 'Montserrat', sans-serif;
+                            font-weight: bold;
+                            transition: all .3s ease;
+                        }
+                    }
+                }
+            }
+        
+        .container-fluid {
+            background: #162e44;
+            .container {
+                .row {
+                    height: 60px;
+                    .col-lg-9 {
+                        nav {
+                            ul {
+                                li { 
+                                    list-style: none;
+                                    a {
+                                        color: white;
+                                        font-family: 'Montserrat', sans-serif;
+                                        margin-right: 40px;
+                                        font-size: 16px;
+                                        text-decoration: none;
+                                        position: relative;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .col-lg-3 {
+                        i {
+                            font-size: 17px;
+                            color: white;
+                            padding-left: 20px;
+                            transition: all .3s ease;
+                            cursor: pointer;
+                            &:hover {
+                                color: $secondColor;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}
+//  End of the header
+
+
+//  Start of the slider Section
+#sliderSection {
+        img {
+            width: 100%;
+            height: 450px;
+            object-fit: cover;
+        }
+        .container {
+            .row {
+                height: 450px;
+                .col-12 {
+                    p {
+                        font-size: 15px;
+                        color: white;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                    span {
+                        font-size: 60px;
+                        color: white;
+                        font-weight: 300;
+                    }
+                    h1 {
+                        font-size: 60px;
+                        color: white;
+                        display: inline-block;
+                        font-weight: bold;
+                    }
+                    button {
+                        @include mainBtn (border-box, 190px, 50px, none, none, pointer, 2px solid $mainColor);
+                        display: block;
+                        border: 2px solid white;
+                        width: 170px;
+                        height: 60px;
+                        transition: all .3s ease;
+                        z-index: 1;
+                        &:hover {
+                            .btnHover {
+                                transform: scaleX(1);
+                                background: #50ba87;
+                                border: 2px solid #50ba87;
+                            }
+                            
+                        }
+                        a {
+                            @include aStyle (black,none, $mont, bold, all .3s ease);
+                            color: white;
+                            } 
+                        .btnHover{
+                            @extend .btHover ;
+                            }                           
+                        }
+                    }
+                }
+            }
+} 
+//  End of the slider Section
+
+
+//  Start of the tours Section
+#toursSection {
+    background: #f7f7f7;
+    height: 530px;
+    @media  (min-width: 768px) and (max-width: 992px) {
+        .col-md-4 {
+            margin-top: 70px !important;
+            .item {
+                height: 200px !important;
+                h1 {
+                    font-size: 18px !important;
+                }
+            }
+        }
+    }
+    .container {
+        .row { 
+            height:420px;
+            .col-lg-4 {
+                margin-top: -40px;
+                height: auto;
+                .item {
+                    overflow: hidden;
+                }
+                &:hover {
+                    img {
+                        transform: scale(1.1);
+                        overflow: hidden;
+                    }
+                }
+                .item {
+                    height: 420px;
+                    img {
+                        object-fit: cover;
+                        width: 100%;
+                        height: 100%;
+                        transition: all .3s ease;
+                    }
+                    h1 {
+                        color: white;
+                        font-family: $mont;
+                        font-size: 25px;
+                        font-weight: bold;
+                        bottom: 10%;
+                    }
+                }
+            }
+            .col-lg-12 {
+                box-sizing: border-box;
+                height: 150px;
+                p {
+                    font-weight: bold;
+                    font-family: $mont;
+                    cursor: pointer;
+                    &:hover {
+                        span {
+                            &::before {
+                                width: 40px;
+                            }
+                            &::after {
+                                margin-left: 13%;
+                            }
+                        }
+                    }
+                span {
+                    &::before {
+                        content: '';
+                        width: 30px;
+                        height: 2px;
+                        background: black;
+                        position: absolute;
+                        margin-left: 10%;
+                        bottom: 55%;
+                        transition: all .3s ease;
+                    }
+                    &::after {
+                        content: '';
+                        width: 0px;
+                        height: 0px;
+                        border-top: 5px solid rgba(160, 33, 107, 0);
+                        border-right: 5px solid rgba(38, 145, 95, 0);
+                        border-bottom: 5px solid rgba(255, 0, 0, 0);
+                        border-left: 10px solid black;
+                        position: absolute;
+                        margin-left: 12%;
+                        margin-bottom: -4px;
+                        bottom: 55%;
+                        transition: all .3s ease;
+                    }
+                }
+            }
+            }
+        }
+    }
+}
+//  End of the tours Section
+
+
+//  Start of the offer Section
+#offerSection {
+    // background: teal;
+    height: 500px;
+    .container {
+        .row {
+            box-sizing: border-box;
+            height: 500px;
+            .col-lg-6 {
+                box-sizing: border-box;
+                height: 400px;
+                img {
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                }
+                .item {
+                    box-sizing: border-box;
+                    height: 75%;
+                    width: 90%;
+                    h1 {
+                        font-family: $mont;
+                        font-weight: 500;
+                        font-size: 35px;
+                    }
+                    ul {
+                        li {
+                            list-style: none;
+                            a {
+                                font-size: 18px;
+                                font-family: $mont;
+                                color: #9b9b9b;
+                                text-decoration: none;
+                                border-bottom: 2px solid rgba(0, 0, 0, 0);
+                                transition: all .3s ease;
+                                &:hover {
+                                    border-bottom: 2px solid $mainColor;
+                                }
+                            }
+                        }
+                    }
+                    p {
+                        font-family: $mont;
+                    }
+                    button:nth-of-type(1) {
+                        @include mainBtn (border-box, 190px, 50px, none, none, pointer, 1px solid $mainColor);
+                        height: 60px;
+                        margin-top: 20px;
+                        margin-right: 15px;
+                        background: $mainColor;
+                        transition: all .3s ease;
+                        &:hover {
+                            background: white;
+                            border: 2px solid black;
+                            a {
+                                color: black;
+                            }
+                        }
+                        a {
+                            @include aStyle (black,none, $mont, bold, all .3s ease);
+                            color: white;
+                            font-size: 18px;
+                            font-weight: 500;
+                            transition: all .3s ease;
+                        }
+                    }
+                    button:nth-of-type(2) {
+                        @include mainBtn (border-box, 190px, 50px, none, none, pointer, 1px solid $mainColor);
+                        height: 60px;
+                        margin-top: 20px;
+                        transition: all .3s ease;
+                        border: 2px solid black;
+                        &:hover {
+                            background: $mainColor;
+                            border: 2px solid $mainColor;
+                        }
+                        a {
+                            @include aStyle (black,none, $mont, bold, all .3s ease);
+                            color: black;
+                            font-size: 18px;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//  End of the offer Section
+
+
+//  Start of the services Section
+#servicesSection {
+    height: 650px;
+    .container {
+        .row {
+            .col-lg-4 {
+                height: 230px;
+                margin-bottom: 35px;
+                .item {
+                    height: 230px;
+                    background: #ececec;
+                    &:hover {
+                        .innerItem {
+                            transform: scale(1);
+                            background: white;
+                        }
+                    }
+                    .innerItem {
+                        width: 100%;
+                        height: 100%;
+                        transform: scale(0.9);
+                        background: white;
+                        transition: all .3s ease;
+                        .col-lg-3 {
+                            i {
+                                font-size: 35px;
+                                color: $mainColor;
+                            }
+                        }
+                        .col-lg-9 {
+                            height: 150px;
+                            h1 {
+                                font-family: $mont;
+                                font-size: 18px;
+                            }
+                            p {
+                                font-family: $mont;
+                                font-size: 16px;
+                                color: #8d8d8d;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//  End of the services Section
+
+
+// Start of the toursPricing Section
+#toursPricingSection {
+    height: 1000px;
+    .container {
+        .row {
+            .col-lg-6 {
+                box-sizing: border-box;
+                border: 1px solid #c5c5c5;
+                height: 350px;
+                overflow: hidden;
+                button {
+                    @include mainBtn (border-box, 190px, 50px, none, none, pointer, 2px solid $mainColor);
+                    display: block;
+                    border: 2px solid black;
+                    width: 170px;
+                    height: 60px;
+                    transition: all .3s ease;
+                    z-index: 1;
+                    &:hover {
+                        .btnHover {
+                            transform: scaleX(1);
+                            background: $mainColor;
+                            border: 2px solid $mainColor;
+                        }
+                        
+                    }
+                    a {
+                        @include aStyle (black,none, $mont, bold, all .3s ease);
+                        color: black;
+                        font-weight: 500;
+                        } 
+                    .btnHover{
+                        @extend .btHover ;
+                        }                           
+                    }
+                h1 {
+                    cursor: pointer;
+                    transition: all .3s ease;
+                    &:hover {
+                        color: $mainColor;
+                    }
+                }
+                i {
+                    color: gold;
+                }
+                span {
+                    font-family: $mont;
+                    font-size: 15px;
+                    margin-left: 10px;
+                    color: #8d8d8d;
+                }
+                p {
+                    font-size: 15px;
+                    font-family: $mont;
+                    margin-top: 10px;
+                    color: #9b9b9b;
+                }
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    transform: scale(1.1);
+                    transition: all .3s ease;
+                    &:hover {
+                            transform: scale(1);
+                    }
+                }
+                .item {
+                    box-sizing: border-box;
+                    // border: 1px solid black;
+                    width: 85%;
+                    height: 230px;
+                }
+            }
+            .col-lg-6:nth-of-type(2) {
+                &::after {
+                    content: '$790';
+                    padding: 10px;
+                    color: white;
+                    font-family: $mont;
+                    font-size: 25px;
+                    width: 100px;
+                    height: 60px;
+                    background: $mainColor;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    border-bottom-left-radius: 30px;
+                }
+            }
+            .col-lg-6:nth-of-type(4) {
+                &::after {
+                    content: '$890';
+                    padding: 10px;
+                    color: white;
+                    font-family: $mont;
+                    font-size: 25px;
+                    width: 100px;
+                    height: 60px;
+                    background: $mainColor;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    border-bottom-left-radius: 30px;
+                }
+            }
+        }
+    }
+}
+// End of the toursPricing Section
+
+
+// Start of the team Section
+#teamSection {
+    height: 500px;
+    .container {
+        .row {
+            padding-top: 10%;
+            .col-lg-3 {
+                height: 230px;
+                .item {
+                    position: absolute;
+                    top: -25%;
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    border: 5px solid #01b3a700;
+                    transition: all .3s ease;
+                    &:hover {
+                        border: 5px solid #01b3a7;
+                    }
+                    img {
+                        object-fit: cover;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .textItem {
+                    width: 90%;
+                    height: 90%;
+                    background: rgb(243, 243, 243);
+                    text-align: center;
+                    padding-top: 25%;
+                    h1 {
+                        font-size: 25px;
+                    }
+                    p {
+                        color: $mainColor;
+                    }
+                    span {
+                        transition: all .3s ease;
+                        cursor: pointer;
+                        &:hover {
+                            color: $mainColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// End of the team Section
+
+
+// Start of the booking Section
+#bookingSection {
+    background-image: url("../images/parallax-1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    .container {
+        .row {
+            height: 450px;
+            .col-12 {
+                text-align: center;
+                h1 {
+                    font-family: $mont;
+                    color: white;
+                    font-size: 50px;
+                }
+                p {
+                    font-size: 15px;
+                    color: white;
+                    font-family: $mont;
+                }
+                button {
+                    @include mainBtn (border-box, 190px, 50px, none, none, pointer, 1px solid $mainColor);
+                    height: 60px;
+                    margin-top: 20px;
+                    margin-right: 15px;
+                    background: $mainColor;
+                    transition: all .3s ease;
+                    &:hover {
+                        background: rgba(255, 255, 255, 0);
+                        border: 2px solid white;
+                    }
+                    a {
+                        @include aStyle (black,none, $mont, bold, all .3s ease);
+                        color: white;
+                        font-size: 18px;
+                        font-weight: 500;
+                        transition: all .3s ease;
+                    }
+                }
+            }
+        }
+    }
+}
+// Start of the booking Section
+
+
+// Start of the feedback Section
+#feedbackSection {
+    background: #f7f7f7;
+    height: 500px;
+    .container {
+        .row {
+            margin-top: 10%;
+            .col-lg-4 {
+                box-sizing: border-box;
+                .item {
+                    box-sizing: border-box;
+                    background: white;
+                    text-align: center;
+                    padding: 0px 15px;
+                    height: 250px;
+                    .imgHolder {
+                        width: 90px;
+                        height: 90px;
+                        border: 10px solid white;
+                        border-radius: 50px;
+                        position: relative;
+                        top: -20%;
+                        img {
+                            object-fit: cover;
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 50%;
+                            overflow: hidden;
+                        }
+                    }
+                    p {
+                        font-size: 14px;
+                        font-family: $mont;
+                        margin-top: -10%;
+                    }   
+                    h1 {
+                        color: $mainColor;
+                        font-size: 25px;
+                        cursor: pointer;
+                        font-weight: 400;
+                        transition: all .3s ease;
+                        &:hover {
+                            color: $secondColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// Start of the feedback Section
+
+
+// Start of the statics Section
+#staticsSection {
+    height: 500px;
+    h1 {
+        margin-top: 5%;
+    }
+    .container {
+        .row {
+            margin-top: 5%;
+            .col-lg-4 {
+                .item {
+                    box-sizing: border-box;
+                    position: relative;
+                    img {
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                    }
+                    .innerItem {
+                        background: white;
+                        width: 90%;
+                        height: 90%;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        text-align: center;
+                        h1 {
+                            font-size: 70px;
+                            font-weight: bold;
+                        }
+                        p {
+                            font-size: 30px;
+                            font-family: $mont;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// Start of the statics Section
+
+
+// Start of the sign up Section
+#signUpSection {
+    background-image: url("../images/parallax-2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    .container {
+        .row {
+            height: 450px;
+            .col-12 {
+                text-align: center;
+                h1 {
+                    font-family: $mont;
+                    color: white;
+                    font-size: 50px;
+                }
+                p {
+                    font-size: 15px;
+                    color: white;
+                    font-family: $mont;
+                }
+                input {
+                    outline: none;
+                    border: none;
+                    width: 300px;
+                    height: 55px;
+                    background: rgba(233, 233, 233, 0.438);
+                    font-size: 20px;
+                    &::placeholder {
+                        color: white;
+                    }
+                }
+                button {
+                    @include mainBtn (border-box, 190px, 50px, none, none, pointer, 1px solid $mainColor);
+                    height: 55px;
+                    margin-top: 20px;
+                    margin-right: 15px;
+                    background: $mainColor;
+                    transition: all .3s ease;
+                    &:hover {
+                        background: rgba(255, 255, 255, 0);
+                        border: 2px solid white;
+                    }
+                    a {
+                        @include aStyle (black,none, $mont, bold, all .3s ease);
+                        color: white;
+                        font-size: 18px;
+                        font-weight: 500;
+                        transition: all .3s ease;
+                    }
+                }
+            }
+        }
+    }
+}
+// End of the sign up Section
+
+
+// Start of the blog post Section
+#blogPostSection {
+    height: 750px;
+    .container {
+        .row {
+            .col-lg-6 {
+                .item {
+                    height: 550px;
+                    position: relative;
+                    cursor: pointer;
+                    &:hover {
+                        .innerItem {
+                            height: 30%;
+                            .iconHolder {
+                                height: 20%;
+                                i {
+                                    font-size: 20px;
+                                    width: 30px;
+                                    height: 30px;
+                                }
+                            }
+                        }
+                    }
+                    .innerItem {
+                        background: white;
+                        width: 80%;
+                        height: 25%;
+                        position: absolute;
+                        bottom: -5%;
+                        left: 50%;
+                        transform: translate(-50%, 5%);
+                        text-align: center;
+                        transition: all .3s ease;
+
+                        h1 {
+                            font-size: 22px;
+                            font-family: $mont;
+                            margin-top: 5%;
+                            color: black;
+                            transition: all .3s ease;
+                            &:hover {
+                                color: $mainColor;
+                            }
+                        }
+                        p {
+                            font-size: 20px;
+                            font-family: $mont;
+                            color: $mainColor;
+                        }
+                        .iconHolder {
+                            position: absolute;
+                            width: 40%;
+                            height: 0%;
+                            bottom: 10%;
+                            left: 50%;
+                            transform: translate(-50%, -10%);
+                            transition: all .3s ease;
+                            i {
+                                background: black;
+                                width: 0px;
+                                height: 0px;
+                                color: white;
+                                font-size: 0px;
+                                text-align: center;
+                                line-height: 30px;
+                                border-radius: 50%;
+                                position: relative;
+                                z-index: 1;
+                                cursor: pointer;
+                                transition: all .3s ease;
+                                &:hover {
+                                    .iconOverlay {
+                                        width: 30px;
+                                        height: 30px;
+                                    }
+                                }
+                                .iconOverlay {
+                                    width: 0px;
+                                    height: 0px;
+                                    background: $mainColor;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 50%;
+                                    transform: translate(-50%, 0%);
+                                    border-radius: 50%;
+                                    z-index: -1;
+                                    transition: all .2s ease;
+                                }
+                            }
+                        }
+                    }
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+}
+// End of the blog post Section 
+
+
+// Start of the gallery Section
+#gallerySection {
+    height: auto;
+    .container{
+        .row{
+            .col-lg-4{
+                .item {
+                    height: 250px;
+                    position: relative;
+                    cursor: pointer;
+                    &:hover {
+                        .itemOverlay {
+                            width: 100%;
+                            height: 100%;
+                            i {
+                                font-size: 30px;
+                            }
+                        }
+                    }
+                    .itemOverlay {
+                        position: absolute;
+                        width: 0%;
+                        height: 0%;
+                        background: #00000071;
+                        transition: all .3s ease;
+                        i {
+                            position: absolute;
+                            font-size: 0px;
+                            color: white;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%,-50%);
+                            transition: all .3s ease;
+                        }
+                    }
+                    img {
+                        object-fit: cover;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+// End of the gallery Section
+
+
+// Start of the footer Section
+footer {
+    background: #162e44;
+    .container {
+        .row {
+            .col-lg-4 {
+                .item {
+                    height: auto;
+                    h1 {
+                        color: white;
+                        font-size: 18px;
+                        font-family: $mont;
+                    }
+                    .contactList {
+                        li {
+                            list-style: none;
+                            i {
+                                color: $mainColor;
+                                margin-right: 15px;
+                                font-size: 20px;
+                                float: left;
+                                margin-bottom: 10px;
+                            }
+                            a {
+                                color: white;
+                                font-family: $mont;
+                                font-size: 15px;
+                                text-decoration: none;
+                                transition: all .3s ease;
+                                &:hover {
+                                    color: $secondColor;
+                                }
+                            }
+                        }
+                    }
+                    .newsList {
+                        li {
+                            list-style: none;
+                            margin-bottom: 20px;
+                            a {
+                                color: rgba(255,255,255,.25);
+                                font-family: $mont;
+                                font-size: 15px;
+                                text-decoration: none;
+                            }
+                            &:nth-child(2n+1){
+                                margin-bottom: 0;
+                                a{
+                                    text-decoration: none;
+                                    color: $mainColor;
+                                    font-family: $mont;
+                                    transition: all .3s ease;
+                                    &:hover {
+                                        color: $secondColor;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .linkList {
+                        height: 80px;
+                        li {
+                            i {
+                                color: $mainColor;
+                                font-size: 10px;
+                            }
+                            list-style: none;
+                            a {
+                                text-decoration: none;
+                                font-family: $mont;
+                                color: white;
+                                font-size: 15px;
+                                transition: all .3s ease;
+                                &:hover {
+                                    color: $mainColor;
+                                }
+                            }
+                        }
+                    }
+                    button {
+                        @include mainBtn( border-box, 190px, 50px, none, none, pointer, 1px solid $mainColor );
+                        transition: all .3s ease;
+                        position: relative;
+                        z-index: 0;
+                        &:hover {
+                            .btnHover {
+                                transform: scaleX(1);
+                                background: #50ba87;
+                            }
+                        }
+                        .btnHover {
+                            position: absolute;
+                            width: 190px;
+                            transform: scaleX(0.4);
+                            height: 50px;
+                            background: #50ba8700;
+                            top: -2px;
+                            left: -2px;
+                            transition: all .3s ease;
+                            z-index: -1;
+                        }
+                        a {
+                            text-decoration: none;
+                            color: white;
+                            font-family: 'Montserrat', sans-serif;
+                            font-weight: bold;
+                            transition: all .3s ease;
+                            z-index: 1;
+                        }
+                    }
+                }
+            }
+            .col-12 { 
+                .col-6 {
+                    p {
+                        color: rgb(44, 81, 116);
+                        font-size: 15px;
+                    }
+                }
+                .col-6 {
+                    i {
+                        color: white;
+                        margin-left: 20px;
+                        cursor: pointer;
+                        transition: all .3s ease;
+                        &:hover {
+                            color: $mainColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// End of the footer Section

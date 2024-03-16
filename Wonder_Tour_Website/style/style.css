@@ -1,0 +1,1082 @@
+.btHover, #sliderSection .container .row .col-12 button .btnHover, #toursPricingSection .container .row .col-lg-6 button .btnHover {
+  width: 170px;
+  transform: scaleX(0.4);
+  height: 60px;
+  background: #50ba8700;
+  top: -2px;
+  left: -2px;
+  transition: all .3s ease;
+  z-index: -1; }
+
+@media (max-width: 576px) {
+  #toursSection {
+    height: 850px !important; }
+    #toursSection .container .row .col-12 {
+      margin-top: 50px !important; }
+      #toursSection .container .row .col-12 .item {
+        height: 200px !important; }
+    #toursSection .container .row .col-12:nth-of-type(4) {
+      margin-top: 0px !important;
+      height: 100px !important; }
+
+  #offerSection {
+    height: 1000px !important; }
+    #offerSection .container .row .col-sm-12 .item ul {
+      display: block !important; }
+
+  #servicesSection {
+    height: 1650px !important; }
+    #servicesSection .container .row .col-sm-6 .item .innerItem .col-xs-10 {
+      display: flex;
+      justify-content: center; }
+
+  #toursPricingSection {
+    height: 1550px !important; }
+    #toursPricingSection .container .row {
+      display: flex;
+      justify-content: center; }
+      #toursPricingSection .container .row .col-11 {
+        padding-left: 0px !important;
+        border: none !important;
+        margin-bottom: 0px !important;
+        display: flex;
+        justify-content: start !important; }
+
+  #teamSection {
+    height: 1250px !important; }
+    #teamSection h1 {
+      font-size: 30px; }
+    #teamSection .container .row .col-12 {
+      margin-top: 5% !important; }
+      #teamSection .container .row .col-12 .textItem {
+        padding-top: 15% !important; }
+
+  #bookingSection .container .row .col-12 h1 {
+    font-size: 15px !important; }
+  #bookingSection .container .row .col-12 p {
+    font-size: 10px !important; }
+
+  #feedbackSection {
+    height: 1200px !important; }
+    #feedbackSection .container .row .col-sm-10 {
+      margin-top: 13%; }
+
+  #staticsSection {
+    height: 1000px !important; }
+    #staticsSection h1 {
+      font-size: 30px !important; }
+    #staticsSection .container .row .col-8 {
+      margin-top: 5% !important; }
+      #staticsSection .container .row .col-8 .item {
+        height: 250px !important; }
+        #staticsSection .container .row .col-8 .item h1 {
+          font-size: 50px !important; }
+
+  #signUpSection .container .row .col-12 h1 {
+    font-size: 25px !important; }
+  #signUpSection .container .row .col-12 p {
+    font-size: 10px !important; }
+
+  #blogPostSection {
+    height: 750px !important; }
+    #blogPostSection .container .row .col-12 .item {
+      height: 250px !important;
+      margin-bottom: 15% !important; }
+      #blogPostSection .container .row .col-12 .item .innerItem {
+        height: 55% !important; }
+        #blogPostSection .container .row .col-12 .item .innerItem h1 {
+          font-size: 15px !important; }
+        #blogPostSection .container .row .col-12 .item .innerItem p {
+          font-size: 15px !important; }
+        #blogPostSection .container .row .col-12 .item .innerItem .iconHolder {
+          height: 20% !important; }
+          #blogPostSection .container .row .col-12 .item .innerItem .iconHolder i {
+            font-size: 20px !important;
+            width: 25px !important;
+            height: 25px !important;
+            line-height: 25px !important; }
+            #blogPostSection .container .row .col-12 .item .innerItem .iconHolder i .iconOverlay {
+              width: 25px !important;
+              height: 25px !important;
+              background: black !important;
+              z-index: -1 !important; }
+
+  #gallerySection {
+    height: 600px !important; }
+    #gallerySection .container .row .col-4 .item {
+      height: 120px !important; }
+
+  footer {
+    padding-bottom: 20px !important; } }
+@media (min-width: 576px) and (max-width: 768px) {
+  #toursSection {
+    height: 850px !important; }
+    #toursSection .container .row .col-sm-12 {
+      margin-top: 50px !important; }
+      #toursSection .container .row .col-sm-12 .item {
+        height: 200px !important; }
+    #toursSection .container .row .col-sm-12:nth-of-type(4) {
+      margin-top: 0px !important;
+      height: 100px !important; }
+
+  #offerSection {
+    height: 800px !important; }
+    #offerSection .container .row .col-md-12 {
+      padding-left: 0 !important; }
+      #offerSection .container .row .col-md-12 .item {
+        width: 100% !important; }
+
+  #servicesSection {
+    height: 870px !important; }
+
+  #toursPricingSection .container .row .col-sm-6 .item {
+    height: 220px !important; }
+    #toursPricingSection .container .row .col-sm-6 .item p {
+      font-size: 12px !important; }
+    #toursPricingSection .container .row .col-sm-6 .item button {
+      height: 40px !important; }
+      #toursPricingSection .container .row .col-sm-6 .item button .btnHover {
+        height: 40px !important; }
+
+  #teamSection {
+    height: 1250px !important; }
+    #teamSection .container .row .col-sm-12 .textItem {
+      padding-top: 15% !important; }
+
+  #bookingSection .container .row .col-12 h1 {
+    font-size: 30px !important; }
+  #bookingSection .container .row .col-12 p {
+    font-size: 12px !important; }
+
+  #feedbackSection {
+    height: 1200px !important; }
+    #feedbackSection .container .row .col-sm-10 {
+      margin-top: 13%; }
+
+  #staticsSection {
+    height: 1000px !important; }
+    #staticsSection h1 {
+      font-size: 30px; }
+    #staticsSection .container .row .col-sm-8 {
+      margin-top: 5% !important; }
+      #staticsSection .container .row .col-sm-8 .item {
+        height: 250px !important; }
+
+  #signUpSection .container .row .col-12 h1 {
+    font-size: 30px !important; }
+  #signUpSection .container .row .col-12 p {
+    font-size: 13px !important; }
+
+  #blogPostSection {
+    height: 750px !important; }
+    #blogPostSection .container .row .col-sm-12 .item {
+      height: 250px !important;
+      margin-bottom: 15% !important; }
+      #blogPostSection .container .row .col-sm-12 .item .innerItem {
+        height: 55% !important; }
+        #blogPostSection .container .row .col-sm-12 .item .innerItem h1 {
+          font-size: 15px !important; }
+        #blogPostSection .container .row .col-sm-12 .item .innerItem p {
+          font-size: 15px !important; }
+        #blogPostSection .container .row .col-sm-12 .item .innerItem .iconHolder {
+          height: 20% !important; }
+          #blogPostSection .container .row .col-sm-12 .item .innerItem .iconHolder i {
+            font-size: 20px !important;
+            width: 25px !important;
+            height: 25px !important;
+            line-height: 25px !important; }
+            #blogPostSection .container .row .col-sm-12 .item .innerItem .iconHolder i .iconOverlay {
+              width: 25px !important;
+              height: 25px !important;
+              background: black !important;
+              z-index: -1 !important; }
+
+  #gallerySection {
+    height: auto !important; }
+    #gallerySection .container .row .col-sm-4 .item {
+      height: 150px !important; }
+
+  footer .container .row .col-sm-6 .item .contactList li a {
+    font-size: 12px !important;
+    margin-right: 30px !important; }
+  footer .container .row .col-sm-6 {
+    margin-top: 20px !important; }
+    footer .container .row .col-sm-6 .item ul li a {
+      font-size: 13px !important; }
+  footer .container .row .col-sm-12 .item ul li a {
+    font-size: 13px !important; } }
+@media (min-width: 768px) and (max-width: 992px) {
+  #toursSection {
+    height: 400px !important; }
+    #toursSection .container .row .col-12 {
+      margin-top: 50px !important;
+      height: 200px !important; }
+      #toursSection .container .row .col-12 .item {
+        height: 200px !important; }
+    #toursSection .container .row .col-md-12 {
+      margin-top: 0px !important;
+      height: 120px !important; }
+
+  #offerSection {
+    height: 800px !important; }
+    #offerSection .container .row .col-md-12 {
+      display: flex !important;
+      justify-content: start !important;
+      padding-left: 0 !important; }
+
+  #servicesSection {
+    height: 850px !important; }
+    #servicesSection .container .row .col-sm-6 .item .innerItem {
+      padding-top: 0px; }
+      #servicesSection .container .row .col-sm-6 .item .innerItem .col-sm-12 {
+        height: 50px !important;
+        margin-left: 0px !important; }
+
+  #teamSection {
+    height: 650px !important; }
+
+  #feedbackSection {
+    height: 800px !important; }
+    #feedbackSection .container .row .col-md-6:nth-of-type(3) {
+      margin-top: 13%; }
+
+  #staticsSection {
+    height: 700px !important; }
+    #staticsSection .container .row .col-md-6:nth-of-type(3) {
+      margin-top: 5% !important; }
+
+  #blogPostSection {
+    height: 450px !important; }
+    #blogPostSection .container .row .col-md-6 .item {
+      height: 250px !important; }
+      #blogPostSection .container .row .col-md-6 .item .innerItem {
+        height: 50% !important; }
+        #blogPostSection .container .row .col-md-6 .item .innerItem h1 {
+          font-size: 15px !important; }
+        #blogPostSection .container .row .col-md-6 .item .innerItem p {
+          font-size: 15px !important; }
+        #blogPostSection .container .row .col-md-6 .item .innerItem .iconHolder {
+          height: 20% !important; }
+          #blogPostSection .container .row .col-md-6 .item .innerItem .iconHolder i {
+            font-size: 15px !important;
+            width: 20px !important;
+            height: 20px !important;
+            line-height: 20px !important; }
+            #blogPostSection .container .row .col-md-6 .item .innerItem .iconHolder i .iconOverlay {
+              width: 20px !important;
+              height: 20px !important;
+              background: black !important;
+              z-index: -1 !important; }
+
+  #gallerySection {
+    height: 400px; }
+    #gallerySection .container .row .col-md-4 .item {
+      height: 200px !important; }
+
+  footer .container .row .col-md-12 .item .contactList li a {
+    font-size: 12px !important;
+    margin-right: 30px !important; }
+  footer .container .row .col-md-6 {
+    margin-top: 20px !important; }
+    footer .container .row .col-md-6 .item ul li a {
+      font-size: 13px !important; } }
+@media (min-width: 540px) and (max-width: 768px) {
+  header .container {
+    max-width: 100% !important; } }
+@media (min-width: 768px) and (max-width: 992px) {
+  header .container {
+    max-width: 100% !important; } }
+header .row {
+  height: 80px;
+  box-sizing: border-box; }
+  header .row .col-lg-3 i {
+    font-size: 30px; }
+  header .row .col-lg-9 i {
+    font-size: 20px;
+    color: #01b3a7; }
+  header .row .col-lg-9 span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    transition: all .3s ease;
+    cursor: pointer; }
+  header .row .col-lg-9 span:nth-of-type(2):hover {
+    color: #50ba87; }
+  header .row .col-lg-9 button {
+    box-sizing: border-box;
+    width: 190px;
+    height: 50px;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #01b3a7;
+    transition: all .3s ease; }
+    header .row .col-lg-9 button:hover .btnHover {
+      transform: scaleX(1);
+      background: #50ba87; }
+    header .row .col-lg-9 button:hover a {
+      color: white; }
+    header .row .col-lg-9 button .btnHover {
+      width: 190px;
+      transform: scaleX(0.4);
+      height: 50px;
+      background: #50ba8700;
+      top: -2px;
+      left: -2px;
+      transition: all .3s ease;
+      z-index: -1; }
+    header .row .col-lg-9 button a {
+      text-decoration: none;
+      color: black;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      transition: all .3s ease; }
+header .container-fluid {
+  background: #162e44; }
+  header .container-fluid .container .row {
+    height: 60px; }
+    header .container-fluid .container .row .col-lg-9 nav ul li {
+      list-style: none; }
+      header .container-fluid .container .row .col-lg-9 nav ul li a {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        margin-right: 40px;
+        font-size: 16px;
+        text-decoration: none;
+        position: relative; }
+    header .container-fluid .container .row .col-lg-3 i {
+      font-size: 17px;
+      color: white;
+      padding-left: 20px;
+      transition: all .3s ease;
+      cursor: pointer; }
+      header .container-fluid .container .row .col-lg-3 i:hover {
+        color: #50ba87; }
+
+#sliderSection img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover; }
+#sliderSection .container .row {
+  height: 450px; }
+  #sliderSection .container .row .col-12 p {
+    font-size: 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif; }
+  #sliderSection .container .row .col-12 span {
+    font-size: 60px;
+    color: white;
+    font-weight: 300; }
+  #sliderSection .container .row .col-12 h1 {
+    font-size: 60px;
+    color: white;
+    display: inline-block;
+    font-weight: bold; }
+  #sliderSection .container .row .col-12 button {
+    box-sizing: border-box;
+    width: 190px;
+    height: 50px;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #01b3a7;
+    display: block;
+    border: 2px solid white;
+    width: 170px;
+    height: 60px;
+    transition: all .3s ease;
+    z-index: 1; }
+    #sliderSection .container .row .col-12 button:hover .btnHover {
+      transform: scaleX(1);
+      background: #50ba87;
+      border: 2px solid #50ba87; }
+    #sliderSection .container .row .col-12 button a {
+      color: black;
+      text-decoration: none;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      transition: all .3s ease;
+      color: white; }
+
+#toursSection {
+  background: #f7f7f7;
+  height: 530px; }
+  @media (min-width: 768px) and (max-width: 992px) {
+    #toursSection .col-md-4 {
+      margin-top: 70px !important; }
+      #toursSection .col-md-4 .item {
+        height: 200px !important; }
+        #toursSection .col-md-4 .item h1 {
+          font-size: 18px !important; } }
+  #toursSection .container .row {
+    height: 420px; }
+    #toursSection .container .row .col-lg-4 {
+      margin-top: -40px;
+      height: auto; }
+      #toursSection .container .row .col-lg-4 .item {
+        overflow: hidden; }
+      #toursSection .container .row .col-lg-4:hover img {
+        transform: scale(1.1);
+        overflow: hidden; }
+      #toursSection .container .row .col-lg-4 .item {
+        height: 420px; }
+        #toursSection .container .row .col-lg-4 .item img {
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+          transition: all .3s ease; }
+        #toursSection .container .row .col-lg-4 .item h1 {
+          color: white;
+          font-family: "Montserrat", sans-serif;
+          font-size: 25px;
+          font-weight: bold;
+          bottom: 10%; }
+    #toursSection .container .row .col-lg-12 {
+      box-sizing: border-box;
+      height: 150px; }
+      #toursSection .container .row .col-lg-12 p {
+        font-weight: bold;
+        font-family: "Montserrat", sans-serif;
+        cursor: pointer; }
+        #toursSection .container .row .col-lg-12 p:hover span::before {
+          width: 40px; }
+        #toursSection .container .row .col-lg-12 p:hover span::after {
+          margin-left: 13%; }
+        #toursSection .container .row .col-lg-12 p span::before {
+          content: '';
+          width: 30px;
+          height: 2px;
+          background: black;
+          position: absolute;
+          margin-left: 10%;
+          bottom: 55%;
+          transition: all .3s ease; }
+        #toursSection .container .row .col-lg-12 p span::after {
+          content: '';
+          width: 0px;
+          height: 0px;
+          border-top: 5px solid rgba(160, 33, 107, 0);
+          border-right: 5px solid rgba(38, 145, 95, 0);
+          border-bottom: 5px solid rgba(255, 0, 0, 0);
+          border-left: 10px solid black;
+          position: absolute;
+          margin-left: 12%;
+          margin-bottom: -4px;
+          bottom: 55%;
+          transition: all .3s ease; }
+
+#offerSection {
+  height: 500px; }
+  #offerSection .container .row {
+    box-sizing: border-box;
+    height: 500px; }
+    #offerSection .container .row .col-lg-6 {
+      box-sizing: border-box;
+      height: 400px; }
+      #offerSection .container .row .col-lg-6 img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%; }
+      #offerSection .container .row .col-lg-6 .item {
+        box-sizing: border-box;
+        height: 75%;
+        width: 90%; }
+        #offerSection .container .row .col-lg-6 .item h1 {
+          font-family: "Montserrat", sans-serif;
+          font-weight: 500;
+          font-size: 35px; }
+        #offerSection .container .row .col-lg-6 .item ul li {
+          list-style: none; }
+          #offerSection .container .row .col-lg-6 .item ul li a {
+            font-size: 18px;
+            font-family: "Montserrat", sans-serif;
+            color: #9b9b9b;
+            text-decoration: none;
+            border-bottom: 2px solid rgba(0, 0, 0, 0);
+            transition: all .3s ease; }
+            #offerSection .container .row .col-lg-6 .item ul li a:hover {
+              border-bottom: 2px solid #01b3a7; }
+        #offerSection .container .row .col-lg-6 .item p {
+          font-family: "Montserrat", sans-serif; }
+        #offerSection .container .row .col-lg-6 .item button:nth-of-type(1) {
+          box-sizing: border-box;
+          width: 190px;
+          height: 50px;
+          background: none;
+          outline: none;
+          cursor: pointer;
+          border: 2px solid #01b3a7;
+          height: 60px;
+          margin-top: 20px;
+          margin-right: 15px;
+          background: #01b3a7;
+          transition: all .3s ease; }
+          #offerSection .container .row .col-lg-6 .item button:nth-of-type(1):hover {
+            background: white;
+            border: 2px solid black; }
+            #offerSection .container .row .col-lg-6 .item button:nth-of-type(1):hover a {
+              color: black; }
+          #offerSection .container .row .col-lg-6 .item button:nth-of-type(1) a {
+            color: black;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            transition: all .3s ease;
+            color: white;
+            font-size: 18px;
+            font-weight: 500;
+            transition: all .3s ease; }
+        #offerSection .container .row .col-lg-6 .item button:nth-of-type(2) {
+          box-sizing: border-box;
+          width: 190px;
+          height: 50px;
+          background: none;
+          outline: none;
+          cursor: pointer;
+          border: 2px solid #01b3a7;
+          height: 60px;
+          margin-top: 20px;
+          transition: all .3s ease;
+          border: 2px solid black; }
+          #offerSection .container .row .col-lg-6 .item button:nth-of-type(2):hover {
+            background: #01b3a7;
+            border: 2px solid #01b3a7; }
+          #offerSection .container .row .col-lg-6 .item button:nth-of-type(2) a {
+            color: black;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            transition: all .3s ease;
+            color: black;
+            font-size: 18px;
+            font-weight: 500; }
+
+#servicesSection {
+  height: 650px; }
+  #servicesSection .container .row .col-lg-4 {
+    height: 230px;
+    margin-bottom: 35px; }
+    #servicesSection .container .row .col-lg-4 .item {
+      height: 230px;
+      background: #ececec; }
+      #servicesSection .container .row .col-lg-4 .item:hover .innerItem {
+        transform: scale(1);
+        background: white; }
+      #servicesSection .container .row .col-lg-4 .item .innerItem {
+        width: 100%;
+        height: 100%;
+        transform: scale(0.9);
+        background: white;
+        transition: all .3s ease; }
+        #servicesSection .container .row .col-lg-4 .item .innerItem .col-lg-3 i {
+          font-size: 35px;
+          color: #01b3a7; }
+        #servicesSection .container .row .col-lg-4 .item .innerItem .col-lg-9 {
+          height: 150px; }
+          #servicesSection .container .row .col-lg-4 .item .innerItem .col-lg-9 h1 {
+            font-family: "Montserrat", sans-serif;
+            font-size: 18px; }
+          #servicesSection .container .row .col-lg-4 .item .innerItem .col-lg-9 p {
+            font-family: "Montserrat", sans-serif;
+            font-size: 16px;
+            color: #8d8d8d; }
+
+#toursPricingSection {
+  height: 1000px; }
+  #toursPricingSection .container .row .col-lg-6 {
+    box-sizing: border-box;
+    border: 1px solid #c5c5c5;
+    height: 350px;
+    overflow: hidden; }
+    #toursPricingSection .container .row .col-lg-6 button {
+      box-sizing: border-box;
+      width: 190px;
+      height: 50px;
+      background: none;
+      outline: none;
+      cursor: pointer;
+      border: 2px solid #01b3a7;
+      display: block;
+      border: 2px solid black;
+      width: 170px;
+      height: 60px;
+      transition: all .3s ease;
+      z-index: 1; }
+      #toursPricingSection .container .row .col-lg-6 button:hover .btnHover {
+        transform: scaleX(1);
+        background: #01b3a7;
+        border: 2px solid #01b3a7; }
+      #toursPricingSection .container .row .col-lg-6 button a {
+        color: black;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        transition: all .3s ease;
+        color: black;
+        font-weight: 500; }
+    #toursPricingSection .container .row .col-lg-6 h1 {
+      cursor: pointer;
+      transition: all .3s ease; }
+      #toursPricingSection .container .row .col-lg-6 h1:hover {
+        color: #01b3a7; }
+    #toursPricingSection .container .row .col-lg-6 i {
+      color: gold; }
+    #toursPricingSection .container .row .col-lg-6 span {
+      font-family: "Montserrat", sans-serif;
+      font-size: 15px;
+      margin-left: 10px;
+      color: #8d8d8d; }
+    #toursPricingSection .container .row .col-lg-6 p {
+      font-size: 15px;
+      font-family: "Montserrat", sans-serif;
+      margin-top: 10px;
+      color: #9b9b9b; }
+    #toursPricingSection .container .row .col-lg-6 img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transform: scale(1.1);
+      transition: all .3s ease; }
+      #toursPricingSection .container .row .col-lg-6 img:hover {
+        transform: scale(1); }
+    #toursPricingSection .container .row .col-lg-6 .item {
+      box-sizing: border-box;
+      width: 85%;
+      height: 230px; }
+  #toursPricingSection .container .row .col-lg-6:nth-of-type(2)::after {
+    content: '$790';
+    padding: 10px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    width: 100px;
+    height: 60px;
+    background: #01b3a7;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 30px; }
+  #toursPricingSection .container .row .col-lg-6:nth-of-type(4)::after {
+    content: '$890';
+    padding: 10px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    width: 100px;
+    height: 60px;
+    background: #01b3a7;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 30px; }
+
+#teamSection {
+  height: 500px; }
+  #teamSection .container .row {
+    padding-top: 10%; }
+    #teamSection .container .row .col-lg-3 {
+      height: 230px; }
+      #teamSection .container .row .col-lg-3 .item {
+        position: absolute;
+        top: -25%;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 5px solid #01b3a700;
+        transition: all .3s ease; }
+        #teamSection .container .row .col-lg-3 .item:hover {
+          border: 5px solid #01b3a7; }
+        #teamSection .container .row .col-lg-3 .item img {
+          object-fit: cover;
+          width: 100%;
+          height: 100%; }
+      #teamSection .container .row .col-lg-3 .textItem {
+        width: 90%;
+        height: 90%;
+        background: #f3f3f3;
+        text-align: center;
+        padding-top: 25%; }
+        #teamSection .container .row .col-lg-3 .textItem h1 {
+          font-size: 25px; }
+        #teamSection .container .row .col-lg-3 .textItem p {
+          color: #01b3a7; }
+        #teamSection .container .row .col-lg-3 .textItem span {
+          transition: all .3s ease;
+          cursor: pointer; }
+          #teamSection .container .row .col-lg-3 .textItem span:hover {
+            color: #01b3a7; }
+
+#bookingSection {
+  background-image: url("../images/parallax-1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px; }
+  #bookingSection .container .row {
+    height: 450px; }
+    #bookingSection .container .row .col-12 {
+      text-align: center; }
+      #bookingSection .container .row .col-12 h1 {
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        font-size: 50px; }
+      #bookingSection .container .row .col-12 p {
+        font-size: 15px;
+        color: white;
+        font-family: "Montserrat", sans-serif; }
+      #bookingSection .container .row .col-12 button {
+        box-sizing: border-box;
+        width: 190px;
+        height: 50px;
+        background: none;
+        outline: none;
+        cursor: pointer;
+        border: 2px solid #01b3a7;
+        height: 60px;
+        margin-top: 20px;
+        margin-right: 15px;
+        background: #01b3a7;
+        transition: all .3s ease; }
+        #bookingSection .container .row .col-12 button:hover {
+          background: rgba(255, 255, 255, 0);
+          border: 2px solid white; }
+        #bookingSection .container .row .col-12 button a {
+          color: black;
+          text-decoration: none;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: bold;
+          transition: all .3s ease;
+          color: white;
+          font-size: 18px;
+          font-weight: 500;
+          transition: all .3s ease; }
+
+#feedbackSection {
+  background: #f7f7f7;
+  height: 500px; }
+  #feedbackSection .container .row {
+    margin-top: 10%; }
+    #feedbackSection .container .row .col-lg-4 {
+      box-sizing: border-box; }
+      #feedbackSection .container .row .col-lg-4 .item {
+        box-sizing: border-box;
+        background: white;
+        text-align: center;
+        padding: 0px 15px;
+        height: 250px; }
+        #feedbackSection .container .row .col-lg-4 .item .imgHolder {
+          width: 90px;
+          height: 90px;
+          border: 10px solid white;
+          border-radius: 50px;
+          position: relative;
+          top: -20%; }
+          #feedbackSection .container .row .col-lg-4 .item .imgHolder img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            overflow: hidden; }
+        #feedbackSection .container .row .col-lg-4 .item p {
+          font-size: 14px;
+          font-family: "Montserrat", sans-serif;
+          margin-top: -10%; }
+        #feedbackSection .container .row .col-lg-4 .item h1 {
+          color: #01b3a7;
+          font-size: 25px;
+          cursor: pointer;
+          font-weight: 400;
+          transition: all .3s ease; }
+          #feedbackSection .container .row .col-lg-4 .item h1:hover {
+            color: #50ba87; }
+
+#staticsSection {
+  height: 500px; }
+  #staticsSection h1 {
+    margin-top: 5%; }
+  #staticsSection .container .row {
+    margin-top: 5%; }
+    #staticsSection .container .row .col-lg-4 .item {
+      box-sizing: border-box;
+      position: relative; }
+      #staticsSection .container .row .col-lg-4 .item img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%; }
+      #staticsSection .container .row .col-lg-4 .item .innerItem {
+        background: white;
+        width: 90%;
+        height: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center; }
+        #staticsSection .container .row .col-lg-4 .item .innerItem h1 {
+          font-size: 70px;
+          font-weight: bold; }
+        #staticsSection .container .row .col-lg-4 .item .innerItem p {
+          font-size: 30px;
+          font-family: "Montserrat", sans-serif;
+          font-weight: bold; }
+
+#signUpSection {
+  background-image: url("../images/parallax-2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px; }
+  #signUpSection .container .row {
+    height: 450px; }
+    #signUpSection .container .row .col-12 {
+      text-align: center; }
+      #signUpSection .container .row .col-12 h1 {
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        font-size: 50px; }
+      #signUpSection .container .row .col-12 p {
+        font-size: 15px;
+        color: white;
+        font-family: "Montserrat", sans-serif; }
+      #signUpSection .container .row .col-12 input {
+        outline: none;
+        border: none;
+        width: 300px;
+        height: 55px;
+        background: rgba(233, 233, 233, 0.438);
+        font-size: 20px; }
+        #signUpSection .container .row .col-12 input::placeholder {
+          color: white; }
+      #signUpSection .container .row .col-12 button {
+        box-sizing: border-box;
+        width: 190px;
+        height: 50px;
+        background: none;
+        outline: none;
+        cursor: pointer;
+        border: 2px solid #01b3a7;
+        height: 55px;
+        margin-top: 20px;
+        margin-right: 15px;
+        background: #01b3a7;
+        transition: all .3s ease; }
+        #signUpSection .container .row .col-12 button:hover {
+          background: rgba(255, 255, 255, 0);
+          border: 2px solid white; }
+        #signUpSection .container .row .col-12 button a {
+          color: black;
+          text-decoration: none;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: bold;
+          transition: all .3s ease;
+          color: white;
+          font-size: 18px;
+          font-weight: 500;
+          transition: all .3s ease; }
+
+#blogPostSection {
+  height: 750px; }
+  #blogPostSection .container .row .col-lg-6 .item {
+    height: 550px;
+    position: relative;
+    cursor: pointer; }
+    #blogPostSection .container .row .col-lg-6 .item:hover .innerItem {
+      height: 30%; }
+      #blogPostSection .container .row .col-lg-6 .item:hover .innerItem .iconHolder {
+        height: 20%; }
+        #blogPostSection .container .row .col-lg-6 .item:hover .innerItem .iconHolder i {
+          font-size: 20px;
+          width: 30px;
+          height: 30px; }
+    #blogPostSection .container .row .col-lg-6 .item .innerItem {
+      background: white;
+      width: 80%;
+      height: 25%;
+      position: absolute;
+      bottom: -5%;
+      left: 50%;
+      transform: translate(-50%, 5%);
+      text-align: center;
+      transition: all .3s ease; }
+      #blogPostSection .container .row .col-lg-6 .item .innerItem h1 {
+        font-size: 22px;
+        font-family: "Montserrat", sans-serif;
+        margin-top: 5%;
+        color: black;
+        transition: all .3s ease; }
+        #blogPostSection .container .row .col-lg-6 .item .innerItem h1:hover {
+          color: #01b3a7; }
+      #blogPostSection .container .row .col-lg-6 .item .innerItem p {
+        font-size: 20px;
+        font-family: "Montserrat", sans-serif;
+        color: #01b3a7; }
+      #blogPostSection .container .row .col-lg-6 .item .innerItem .iconHolder {
+        position: absolute;
+        width: 40%;
+        height: 0%;
+        bottom: 10%;
+        left: 50%;
+        transform: translate(-50%, -10%);
+        transition: all .3s ease; }
+        #blogPostSection .container .row .col-lg-6 .item .innerItem .iconHolder i {
+          background: black;
+          width: 0px;
+          height: 0px;
+          color: white;
+          font-size: 0px;
+          text-align: center;
+          line-height: 30px;
+          border-radius: 50%;
+          position: relative;
+          z-index: 1;
+          cursor: pointer;
+          transition: all .3s ease; }
+          #blogPostSection .container .row .col-lg-6 .item .innerItem .iconHolder i:hover .iconOverlay {
+            width: 30px;
+            height: 30px; }
+          #blogPostSection .container .row .col-lg-6 .item .innerItem .iconHolder i .iconOverlay {
+            width: 0px;
+            height: 0px;
+            background: #01b3a7;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, 0%);
+            border-radius: 50%;
+            z-index: -1;
+            transition: all .2s ease; }
+    #blogPostSection .container .row .col-lg-6 .item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+
+#gallerySection {
+  height: auto; }
+  #gallerySection .container .row .col-lg-4 .item {
+    height: 250px;
+    position: relative;
+    cursor: pointer; }
+    #gallerySection .container .row .col-lg-4 .item:hover .itemOverlay {
+      width: 100%;
+      height: 100%; }
+      #gallerySection .container .row .col-lg-4 .item:hover .itemOverlay i {
+        font-size: 30px; }
+    #gallerySection .container .row .col-lg-4 .item .itemOverlay {
+      position: absolute;
+      width: 0%;
+      height: 0%;
+      background: #00000071;
+      transition: all .3s ease; }
+      #gallerySection .container .row .col-lg-4 .item .itemOverlay i {
+        position: absolute;
+        font-size: 0px;
+        color: white;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: all .3s ease; }
+    #gallerySection .container .row .col-lg-4 .item img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%; }
+
+footer {
+  background: #162e44; }
+  footer .container .row .col-lg-4 .item {
+    height: auto; }
+    footer .container .row .col-lg-4 .item h1 {
+      color: white;
+      font-size: 18px;
+      font-family: "Montserrat", sans-serif; }
+    footer .container .row .col-lg-4 .item .contactList li {
+      list-style: none; }
+      footer .container .row .col-lg-4 .item .contactList li i {
+        color: #01b3a7;
+        margin-right: 15px;
+        font-size: 20px;
+        float: left;
+        margin-bottom: 10px; }
+      footer .container .row .col-lg-4 .item .contactList li a {
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+        transition: all .3s ease; }
+        footer .container .row .col-lg-4 .item .contactList li a:hover {
+          color: #50ba87; }
+    footer .container .row .col-lg-4 .item .newsList li {
+      list-style: none;
+      margin-bottom: 20px; }
+      footer .container .row .col-lg-4 .item .newsList li a {
+        color: rgba(255, 255, 255, 0.25);
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px;
+        text-decoration: none; }
+      footer .container .row .col-lg-4 .item .newsList li:nth-child(2n+1) {
+        margin-bottom: 0; }
+        footer .container .row .col-lg-4 .item .newsList li:nth-child(2n+1) a {
+          text-decoration: none;
+          color: #01b3a7;
+          font-family: "Montserrat", sans-serif;
+          transition: all .3s ease; }
+          footer .container .row .col-lg-4 .item .newsList li:nth-child(2n+1) a:hover {
+            color: #50ba87; }
+    footer .container .row .col-lg-4 .item .linkList {
+      height: 80px; }
+      footer .container .row .col-lg-4 .item .linkList li {
+        list-style: none; }
+        footer .container .row .col-lg-4 .item .linkList li i {
+          color: #01b3a7;
+          font-size: 10px; }
+        footer .container .row .col-lg-4 .item .linkList li a {
+          text-decoration: none;
+          font-family: "Montserrat", sans-serif;
+          color: white;
+          font-size: 15px;
+          transition: all .3s ease; }
+          footer .container .row .col-lg-4 .item .linkList li a:hover {
+            color: #01b3a7; }
+    footer .container .row .col-lg-4 .item button {
+      box-sizing: border-box;
+      width: 190px;
+      height: 50px;
+      background: none;
+      outline: none;
+      cursor: pointer;
+      border: 2px solid #01b3a7;
+      transition: all .3s ease;
+      position: relative;
+      z-index: 0; }
+      footer .container .row .col-lg-4 .item button:hover .btnHover {
+        transform: scaleX(1);
+        background: #50ba87; }
+      footer .container .row .col-lg-4 .item button .btnHover {
+        position: absolute;
+        width: 190px;
+        transform: scaleX(0.4);
+        height: 50px;
+        background: #50ba8700;
+        top: -2px;
+        left: -2px;
+        transition: all .3s ease;
+        z-index: -1; }
+      footer .container .row .col-lg-4 .item button a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        transition: all .3s ease;
+        z-index: 1; }
+  footer .container .row .col-12 .col-6 p {
+    color: #2c5174;
+    font-size: 15px; }
+  footer .container .row .col-12 .col-6 i {
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all .3s ease; }
+    footer .container .row .col-12 .col-6 i:hover {
+      color: #01b3a7; }
